@@ -1,17 +1,58 @@
-# movie
+# 🎬 MOVIE APP
 
-A new Flutter project.
+A Flutter Movie application built using **Clean Architecture + MVI pattern**, powered by TMDB API.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Getting Started
 
-A few resources to get you started if this is your first Flutter project:
+- Clean Architecture (Data – Domain – Presentation).
+- MVI Architecture Pattern.
+- State Management using Cubit (flutter_bloc).
+- Fully API dependent (TMDB).
+- Dependency Injection using GetIt.
+- Error Handling (Network & Server).
+- Loading & Shimmer States.
+- Modular feature-based structure.
+- Scalable & Maintainable codebase.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🤳 Screens
+
+- **Home Screen:** Display popular and upcoming movies.
+- **Search Screen:** Search for movies with real-time results.
+- **Details Screen:** Show movie details, overview, rating, and recommendations.
+- **Loading State:** Shimmer effect while fetching data.
+- **Error State:** Proper error UI when something goes wrong.
+
+---
+
+## 📁 Files Structure
+
+
+---
+
+## 🏗 Architecture
+
+The project follows:
+
+- **MVI (Model – View – Intent)**
+- **Clean Architecture**
+- **Unidirectional Data Flow**
+
+### 🔁 Data Flow
+
+User Action → Cubit (Intent) → UseCase → Repository → DataSource → API  
+API Response → Repository → UseCase → New State → UI Rebuild
+
+---
+
+## 📸 UI
+
+(Add your screenshots inside assets/screenshots and link them like this)
+
+```md
+![Home](assets/screenshots/home.png)
+![Details](assets/screenshots/details.png)
+![Search](assets/screenshots/search.png)
