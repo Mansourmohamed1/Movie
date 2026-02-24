@@ -23,13 +23,12 @@ A Flutter Movie application built using **Clean Architecture + MVI pattern**, po
 - **Home Screen:** Display popular and upcoming movies.
 - **Search Screen:** Search for movies with real-time results.
 - **Details Screen:** Show movie details, overview, rating, and recommendations.
-- **Loading State:** Shimmer effect while fetching data.
-- **Error State:** Proper error UI when something goes wrong.
+- **Watch List Screen:** Show movie that you save it 
 
 ---
 
 ## 📁 Files Structure
-
+![Files Structure](assets/screenshots/image.png)
 
 ---
 
@@ -50,9 +49,10 @@ API Response → Repository → UseCase → New State → UI Rebuild
 
 ## 📸 UI
 
-(Add your screenshots inside assets/screenshots and link them like this)
+![Home](assets/screenshots/homeScreen.png)
+![Details](assets/screenshots/detailsScreen.png)
+![Search](assets/screenshots/searchScreen.png)
+![WatchList](assets/screenshots/watchListScreen.png)
 
-```md
-![Home](assets/screenshots/home.png)
-![Details](assets/screenshots/details.png)
-![Search](assets/screenshots/search.png)
+- Contributions are welcome 💜
+- If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request.
